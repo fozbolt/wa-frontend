@@ -1,5 +1,10 @@
 export default {
     authenticated: false,
     userEmail: 'fake@email.com',
-    userName: 'Neki user'
+    newUrl: '',
+    cards: [],
+    searchTerm: '',
+    postComment: '',
+    imageData: null,
+    tipKorisnika: null
 }
