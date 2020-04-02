@@ -1,10 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-<<<<<<< Updated upstream
 import Posts from '../views/Posts.vue'
-=======
->>>>>>> Stashed changes
 
 Vue.use(VueRouter)
 
@@ -12,7 +9,6 @@ const routes = [
   {
     path: '/',
     name: 'home',
-<<<<<<< Updated upstream
     component: Home,
     children: [
       {
@@ -32,9 +28,6 @@ const routes = [
         component: () => import(/* webpackChunkName: "post-detail" */ '../views/PostDetail.vue')
       }
     ]
-=======
-    component: Home
->>>>>>> Stashed changes
   },
   {
     path: '/login',
