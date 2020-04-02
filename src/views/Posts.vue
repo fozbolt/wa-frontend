@@ -27,12 +27,12 @@ export default {
   },
   mounted() {
     this.fetchPosts();
-    //Wa-208 ispisan u browser konzolu:
+    
   },
   name: "posts",
   methods: {
      fetchPosts(term) {
-      term = term || store.searchTerm
+      
       fetch(`http://localhost:3000/posts?title=${term}`)
         .then(response => {
           return response.json()
