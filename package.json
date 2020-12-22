@@ -7,7 +7,10 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.3.2",
+    "moment": "^2.18.1",
+    "trace_events": "0.0.1",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3"
   },
